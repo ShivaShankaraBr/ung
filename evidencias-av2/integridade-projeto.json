@@ -1,0 +1,11 @@
+{
+  "algoritmo": "SHA-256",
+  "arquivosPreexistentesVerificados": 400,
+  "todosIntactos": true,
+  "alterados": [],
+  "relatorioFonte": {
+    "arquivo": "C:\\shiva\\retomada-projetos-tests\\holdout-final\\relatorio-holdout-final.md",
+    "sha256Antes": "a0336992e182fe6f335816de2d0110e9e8b19b482a21d8c52d7962f3202d46f8",
+    "sha256Depois": "a0336992e182fe6f335816de2d0110e9e8b19b482a21d8c52d7962f3202d46f8"
+  }
+}

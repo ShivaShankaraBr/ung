@@ -1,0 +1,47 @@
+{
+  "objetivo": "Captura de evidências visuais AV2, sem nova bateria de validação",
+  "inicioUTC": "2026-11-21T04:38:37.491Z",
+  "url": "https://retomada-de-projetos-ia.lovable.app/",
+  "nomeProjeto": "Site da Associação Cultural",
+  "entradaExata": "O conteúdo das páginas Quem Somos e Contato já foi revisado. Foi decidido manter o formulário de contato simples. A publicação do site ainda depende da revisão da página de atividades. Foi sugerido adicionar uma área de notícias no futuro, mas essa ideia não foi aprovada. Há uma anotação sobre revisão das imagens, porém não existe informação indicando se essa revisão já foi concluída.",
+  "aspasExternas": "Aspas tipográficas da solicitação interpretadas como delimitadores do exemplo, não parte do conteúdo.",
+  "geracoesSolicitadas": 1,
+  "relatorioFonte": "C:\\shiva\\retomada-projetos-tests\\holdout-final\\relatorio-holdout-final.md",
+  "sha256RelatorioFonte": "a0336992e182fe6f335816de2d0110e9e8b19b482a21d8c52d7962f3202d46f8",
+  "playwright": "1.65.1",
+  "node": "v26.13.0",
+  "etapas": [],
+  "erros": [
+    {
+      "etapa": "Log final do script local",
+      "mensagem": "ReferenceError: integridade is not defined no console.log final, depois de salvar imagens, manifesto e integridade.",
+      "impacto": "Nenhuma captura perdida; não houve repetição da geração.",
+      "correcao": "Referência corrigida para integrity no script da pasta evidencias-av2, sem reexecução."
+    }
+  ],
+  "chromium": "159.0.8154.6",
+  "httpAplicacao": 200,
+  "preenchimentoConferido": true,
+  "cliqueGerarUTC": "2026-11-21T04:38:50.605Z",
+  "geracaoConcluidaUTC": "2026-11-21T04:39:01.916Z",
+  "paginaGerada": "PROTOCOLO DE RETOMADA\n\nRetomada de Projetos com IA\n\nTransforme registros dispersos em um checkpoint claro para continuar de onde parou.\n\nNome do projeto (opcional)\nInformações disponíveis sobre o projeto\nGerar checkpoint\nLimpar\nCheckpoint de Retomada\n\nProjeto: Site da Associação Cultural\n\n1. Estado atual do projeto\n\nO projeto está em fase de revisão para permitir a publicação do site. O conteúdo das páginas \"Quem Somos\" e \"Contato\" já está revisado, mas a publicação depende da revisão da página de atividades. O estado da revisão das imagens não foi identificado no material fornecido.\n\n2. Atividades já realizadas\nRevisão do conteúdo da página \"Quem Somos\".\nRevisão do conteúdo da página \"Contato\".\n3. Decisões tomadas\nManter o formulário de contato simples.\n4. Pendências\nRealizar a revisão da página de atividades.\nRealizar a publicação do site (dependente da revisão da página de atividades).\nVerificar se a revisão das imagens já foi concluída.\n5. Problemas identificados\n\nNão identificado no material fornecido.\n\n6. Próximo passo\n\nRealizar a revisão da página de atividades e verificar o estado da revisão das imagens para viabilizar a publicação do site.\n\nCopiar checkpoint\nBaixar .md\nLimpar\nEdit with",
+  "areaCheckpoint": {
+    "tag": "SECTION",
+    "limites": {
+      "x": 356,
+      "y": 894,
+      "width": 728,
+      "height": 1034.890625
+    }
+  },
+  "checkpointIntegral": "# Checkpoint de Retomada\r\n\r\n**Projeto:** Site da Associação Cultural\r\n\r\n## 1. Estado atual do projeto\r\nO projeto está em fase de revisão para permitir a publicação do site. O conteúdo das páginas \"Quem Somos\" e \"Contato\" já está revisado, mas a publicação depende da revisão da página de atividades. O estado da revisão das imagens não foi identificado no material fornecido.\r\n\r\n## 2. Atividades já realizadas\r\n- Revisão do conteúdo da página \"Quem Somos\".\r\n- Revisão do conteúdo da página \"Contato\".\r\n\r\n## 3. Decisões tomadas\r\n- Manter o formulário de contato simples.\r\n\r\n## 4. Pendências\r\n- Realizar a revisão da página de atividades.\r\n- Realizar a publicação do site (dependente da revisão da página de atividades).\r\n- Verificar se a revisão das imagens já foi concluída.\r\n\r\n## 5. Problemas identificados\r\n**Não identificado no material fornecido.**\r\n\r\n## 6. Próximo passo\r\nRealizar a revisão da página de atividades e verificar o estado da revisão das imagens para viabilizar a publicação do site.",
+  "mobileSemOverflow": true,
+  "github": {
+    "url": "https://github.com/ShivaShankaraBr/retomada-projetos-ia",
+    "http": 404,
+    "urlFinal": "https://github.com/ShivaShankaraBr/retomada-projetos-ia",
+    "verificadoSemAutenticacao": true,
+    "status": "Evidência pendente: repositório não acessível publicamente nesta verificação."
+  },
+  "fimUTC": "2026-11-21T04:39:11.183Z"
+}

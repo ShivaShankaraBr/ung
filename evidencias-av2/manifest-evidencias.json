@@ -1,0 +1,213 @@
+{
+  "objetivo": "Captura de evidências visuais AV2, sem nova bateria de validação",
+  "ferramenta": "Playwright + Chromium",
+  "versoes": {
+    "playwright": "1.65.1",
+    "chromium": "159.0.8154.6",
+    "node": "v26.13.0"
+  },
+  "fuso": "America/Sao_Paulo",
+  "inicioUTC": "2026-11-21T04:38:37.491Z",
+  "fimUTC": "2026-11-21T04:39:11.183Z",
+  "geracoesSolicitadas": 1,
+  "nenhumaBateriaReexecutada": true,
+  "relatorioFonte": "C:\\shiva\\retomada-projetos-tests\\holdout-final\\relatorio-holdout-final.md",
+  "imagens": [
+    {
+      "arquivo": "01-tela-inicial-mvp.png",
+      "status": "capturada",
+      "dataHoraUTC": "2026-11-21T04:38:49.652Z",
+      "dataHoraLocal": "21/11/2026, 01:38:49",
+      "fuso": "America/Sao_Paulo",
+      "origem": "https://retomada-de-projetos-ia.lovable.app/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dimensoesImagem": {
+        "largura": 1440,
+        "altura": 1000
+      },
+      "tipoCaptura": "página inteira",
+      "descricao": "Tela inicial desktop: título, nome do projeto, informações disponíveis e botão Gerar checkpoint, antes de preencher os campos.",
+      "sha256": "fffb9e063e7736b8e1f2db387604a75c62a566a96623a15d4987946fd477c087",
+      "verificacaoVisual": {
+        "legivelNaResolucaoOriginal": true,
+        "semCorteDeConteudoRelevante": true,
+        "verificadoEmUTC": "2026-11-21T04:40:46.574Z"
+      }
+    },
+    {
+      "arquivo": "02-exemplo-de-entrada.png",
+      "status": "capturada",
+      "dataHoraUTC": "2026-11-21T04:38:50.602Z",
+      "dataHoraLocal": "21/11/2026, 01:38:50",
+      "fuso": "America/Sao_Paulo",
+      "origem": "https://retomada-de-projetos-ia.lovable.app/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dimensoesImagem": {
+        "largura": 1440,
+        "altura": 1000
+      },
+      "tipoCaptura": "página inteira",
+      "descricao": "Exemplo fictício Site da Associação Cultural preenchido com o texto fornecido, antes de qualquer geração.",
+      "sha256": "462a2976949fd10cba5c6e478039e7794a53bacc97f1a5deaa35f107b9789d27",
+      "verificacaoVisual": {
+        "legivelNaResolucaoOriginal": true,
+        "semCorteDeConteudoRelevante": true,
+        "verificadoEmUTC": "2026-11-21T04:40:46.574Z"
+      }
+    },
+    {
+      "arquivo": "03-checkpoint-gerado.png",
+      "status": "capturada",
+      "dataHoraUTC": "2026-11-21T04:39:02.373Z",
+      "dataHoraLocal": "21/11/2026, 01:39:02",
+      "fuso": "America/Sao_Paulo",
+      "origem": "https://retomada-de-projetos-ia.lovable.app/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dimensoesImagem": {
+        "largura": 1440,
+        "altura": 1993
+      },
+      "tipoCaptura": "página inteira",
+      "descricao": "Aplicação após a única geração do exemplo fornecido: formulário e checkpoint completo, sem editar a resposta.",
+      "sha256": "72e02c794c5589fa107e0e30abc65487db18f57394962ada16b0190911b156e4",
+      "verificacaoVisual": {
+        "legivelNaResolucaoOriginal": true,
+        "semCorteDeConteudoRelevante": true,
+        "verificadoEmUTC": "2026-11-21T04:40:46.574Z"
+      }
+    },
+    {
+      "arquivo": "04-checkpoint-detalhe.png",
+      "status": "capturada",
+      "dataHoraUTC": "2026-11-21T04:39:02.749Z",
+      "dataHoraLocal": "21/11/2026, 01:39:02",
+      "fuso": "America/Sao_Paulo",
+      "origem": "https://retomada-de-projetos-ia.lovable.app/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dimensoesImagem": {
+        "largura": 728,
+        "altura": 1035
+      },
+      "tipoCaptura": "elemento do checkpoint",
+      "descricao": "Recorte direto do contêiner do checkpoint gerado, com as seis seções e controles; sem reconstrução ou alteração do conteúdo.",
+      "sha256": "5760d8403ac84ee605dcfb3ad371328cec066a924ab893c3367ac751a644cc9a",
+      "verificacaoVisual": {
+        "legivelNaResolucaoOriginal": true,
+        "semCorteDeConteudoRelevante": true,
+        "verificadoEmUTC": "2026-11-21T04:40:46.574Z"
+      }
+    },
+    {
+      "arquivo": "05-validacao-final.png",
+      "status": "capturada",
+      "dataHoraUTC": "2026-11-21T04:39:04.707Z",
+      "dataHoraLocal": "21/11/2026, 01:39:04",
+      "fuso": "America/Sao_Paulo",
+      "origem": "file:///C:/shiva/retomada-projetos-tests/evidencias-av2/resumo-validacao-final.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dimensoesImagem": {
+        "largura": 1440,
+        "altura": 1000
+      },
+      "tipoCaptura": "página inteira",
+      "descricao": "Resumo visual local construído exclusivamente a partir do relatório do holdout:10 cenários,9/10 aprovados,59/60 critérios,98,33%, uma geração e revisão humana necessária.",
+      "sha256": "bfde2e7666bb7ef9f9d4e1f445faf6a2ee1659accd0b1320cf2311e5b2c094fc",
+      "verificacaoVisual": {
+        "legivelNaResolucaoOriginal": true,
+        "semCorteDeConteudoRelevante": true,
+        "verificadoEmUTC": "2026-11-21T04:40:46.574Z"
+      }
+    },
+    {
+      "arquivo": "06-versao-mobile.png",
+      "status": "capturada",
+      "dataHoraUTC": "2026-11-21T04:39:06.979Z",
+      "dataHoraLocal": "21/11/2026, 01:39:06",
+      "fuso": "America/Sao_Paulo",
+      "origem": "https://retomada-de-projetos-ia.lovable.app/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dimensoesImagem": {
+        "largura": 390,
+        "altura": 964
+      },
+      "tipoCaptura": "página inteira",
+      "descricao": "Tela inicial responsiva em viewport390×844, contexto novo e campos vazios; nenhuma geração mobile.",
+      "sha256": "10b9b017413d2bdb0b1dc002dcceae635e2264d4cbef12463765c578f5bd81c3",
+      "verificacaoVisual": {
+        "legivelNaResolucaoOriginal": true,
+        "semCorteDeConteudoRelevante": true,
+        "verificadoEmUTC": "2026-11-21T04:40:46.574Z"
+      }
+    },
+    {
+      "arquivo": "07-repositorio-github.png",
+      "status": "pendente",
+      "dataHoraUTC": "2026-11-21T04:39:10.531Z",
+      "dataHoraLocal": "21/11/2026, 01:39:10",
+      "fuso": "America/Sao_Paulo",
+      "origem": "https://github.com/ShivaShankaraBr/retomada-projetos-ia",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "motivo": "HTTP 404; não foi obtida uma página pública do repositório.",
+      "descricao": "Evidência da página pública do repositório e arquivos solicitados: pendente por HTTP404 sem autenticação."
+    }
+  ],
+  "problemas": [
+    {
+      "etapa": "Log final do script local",
+      "mensagem": "ReferenceError: integridade is not defined no console.log final, depois de salvar imagens, manifesto e integridade.",
+      "impacto": "Nenhuma captura perdida; não houve repetição da geração.",
+      "correcao": "Referência corrigida para integrity no script da pasta evidencias-av2, sem reexecução."
+    }
+  ],
+  "repositorio": {
+    "url": "https://github.com/ShivaShankaraBr/retomada-projetos-ia",
+    "http": 404,
+    "urlFinal": "https://github.com/ShivaShankaraBr/retomada-projetos-ia",
+    "verificadoSemAutenticacao": true,
+    "status": "Evidência pendente: repositório não acessível publicamente nesta verificação."
+  },
+  "integridade": {
+    "algoritmo": "SHA-256",
+    "arquivosPreexistentesVerificados": 400,
+    "todosIntactos": true,
+    "alterados": [],
+    "relatorioFonte": {
+      "arquivo": "C:\\shiva\\retomada-projetos-tests\\holdout-final\\relatorio-holdout-final.md",
+      "sha256Antes": "a0336992e182fe6f335816de2d0110e9e8b19b482a21d8c52d7962f3202d46f8",
+      "sha256Depois": "a0336992e182fe6f335816de2d0110e9e8b19b482a21d8c52d7962f3202d46f8"
+    }
+  },
+  "verificacaoFinal": {
+    "dataHoraUTC": "2026-11-21T04:40:46.574Z",
+    "imagensCapturadas": 6,
+    "evidenciaRepositorioPendente": true,
+    "geracoes": 1,
+    "recomendadasAV2": [
+      "01-tela-inicial-mvp.png",
+      "03-checkpoint-gerado.png",
+      "05-validacao-final.png"
+    ],
+    "alternativaFoto2": "04-checkpoint-detalhe.png se o espaço impresso reduzir a legibilidade da página inteira."
+  }
+}
